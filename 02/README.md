@@ -1,4 +1,4 @@
-<script <script type="text/javascript" async
+<script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 # LP问题求解基本可行解及基矩阵
