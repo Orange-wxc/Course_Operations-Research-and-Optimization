@@ -31,7 +31,7 @@
 &emsp;
 
 ## <span id="jump4">原理说明</span>
-> - 系数矩阵`$ A $`中任意`$m$`列所组成的`$m$`阶可逆子方阵`$B$`，称为(`$LP$`)的一个基(矩阵)，变量`$x_{j}$`，若它所对应的列`$P_{j}$`包含在基`$B$`中，则称`$x_{j}$`为基变量，否则称为非基变量。
+> - 系数矩阵`$A$`中任意`$m$`列所组成的`$m$`阶可逆子方阵`$B$`，称为(`$LP$`)的一个基(矩阵)，变量`$x_{j}$`，若它所对应的列`$P_{j}$`包含在基`$B$`中，则称`$x_{j}$`为基变量，否则称为非基变量。
 > - 设`$A=\left[\begin{array}{ll}B& N\end{array}\right]$`，其中`$r(B)=m$`，设`$x=\left[\begin{array}{l}x_{B}\\x_{N}\end{array}\right]$`，
 令`$x_{N}=0$`，则有`$LP$`的基本解`$x=\left[\begin{array}{c}B^{-1}b\\0\end{array}\right]$`。
 > - 若`$B^{-1}b\geq0$`，则称`$x=\left[\begin{array}{c}B^{-1}b\\0\end{array}\right]$`为`$LP$`的基本可行解。
@@ -49,11 +49,19 @@ x_{1}, x_{2}, x_{3}, x_{4}, x_{5} \geq 0
 \end{array}\right.
 ```
 ***
-![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
 写成矩阵形式：
-
-![](http://latex.codecogs.com/gif.latex?\\A=\left[\begin{array}{lllll}2 & 1 & 1 & 0 & 0 \\1 & 1 & 0 & 1 & 0 \\0 & 1 & 0 & 0 & 1\end{array}\right],b=\left[\begin{array}{l}10 \\8 \\7\end{array}\right]）
-
+```math
+A=\left[\begin{array}{lllll}
+2 & 1 & 1 & 0 & 0 \\
+1 & 1 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 & 1
+\end{array}\right],
+b=\left[\begin{array}{l}
+10 \\
+8 \\
+7
+\end{array}\right]
+```
 &emsp;
 
 ## <span id="jump6">输出</span>
