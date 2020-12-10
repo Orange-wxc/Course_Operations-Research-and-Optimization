@@ -31,7 +31,7 @@
 &emsp;
 
 ## <span id="jump4">原理说明</span>
-> - 系数矩阵`$A$`中任意`$m$`列所组成的`$m$`阶可逆子方阵`$B$`，称为(`$LP$`)的一个基(矩阵)，变量`$x_{j}$`，若它所对应的列`$P_{j}$`包含在基`$B$`中，则称`$x_{j}$`为基变量，否则称为非基变量。
+> - 系数矩阵`$ A $`中任意`$m$`列所组成的`$m$`阶可逆子方阵`$B$`，称为(`$LP$`)的一个基(矩阵)，变量`$x_{j}$`，若它所对应的列`$P_{j}$`包含在基`$B$`中，则称`$x_{j}$`为基变量，否则称为非基变量。
 > - 设`$A=\left[\begin{array}{ll}B& N\end{array}\right]$`，其中`$r(B)=m$`，设`$x=\left[\begin{array}{l}x_{B}\\x_{N}\end{array}\right]$`，
 令`$x_{N}=0$`，则有`$LP$`的基本解`$x=\left[\begin{array}{c}B^{-1}b\\0\end{array}\right]$`。
 > - 若`$B^{-1}b\geq0$`，则称`$x=\left[\begin{array}{c}B^{-1}b\\0\end{array}\right]$`为`$LP$`的基本可行解。
