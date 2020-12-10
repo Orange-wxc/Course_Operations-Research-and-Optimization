@@ -51,7 +51,7 @@ x_{1}, x_{2}, x_{3}, x_{4}, x_{5} \geq 0
 ***
 ![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
 写成矩阵形式：
-```math
+
 ![](http://latex.codecogs.com/gif.latex?A=\left[\begin{array}{lllll}
 2 & 1 & 1 & 0 & 0 \\
 1 & 1 & 0 & 1 & 0 \\
@@ -62,7 +62,7 @@ b=\left[\begin{array}{l}
 8 \\
 7
 \end{array}\right]）
-```
+
 &emsp;
 
 ## <span id="jump6">输出</span>
