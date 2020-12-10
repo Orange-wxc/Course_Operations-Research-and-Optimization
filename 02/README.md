@@ -1,4 +1,3 @@
-![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
 # LP问题求解基本可行解及基矩阵
 &emsp;
 
@@ -50,6 +49,7 @@ x_{1}, x_{2}, x_{3}, x_{4}, x_{5} \geq 0
 \end{array}\right.
 ```
 ***
+![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
 写成矩阵形式：
 ```math
 A=\left[\begin{array}{lllll}
