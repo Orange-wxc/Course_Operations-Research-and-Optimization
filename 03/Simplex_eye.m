@@ -27,9 +27,10 @@ function [x_opt, fx_opt, iter] = Simplex_eye(A, b, c)
     [mA, nA] = size(A); 
 
     % —∞’“µ•Œªæÿ’Û
+    E = eye(mA);
     for ii = 1:mA
         for jj = 1:nA
-            if A(ii, jj) == 1 && sum(A(:, jj)) == 1
+            if A(ii, jj) == 1 & A(:, jj) == E(:, ii)
                 xB(ii, 1) = jj;
                 cB(ii, 1) = cc(jj, 1);
             end
